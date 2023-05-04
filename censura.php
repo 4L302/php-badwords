@@ -16,8 +16,13 @@
 </head>
 <body>
     <p>
-
         <?php echo$paragrafo2 ?>
     </p>
+
+    <div>
+        <h2>
+            Il testo contiene <?php echo strlen($paragrafo2);?> caratteri
+        </h2>
+    </div>
 </body>
 </html>
